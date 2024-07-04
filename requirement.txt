@@ -1,9 +1,7 @@
 mindspore-ascend=1.8.0
 Python=3.7.5
-numpy=1.21.6
 torch=1.13.0
 tqdm=4.65.0
 scikit-learn=0.24.1
-scipy =1.7.3
 pandas=1.0.5
 transformers=4.23.1
