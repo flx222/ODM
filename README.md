@@ -2,34 +2,12 @@
 
 This repository contains a comprehensive pipeline for training, generating, and classifying protein sequences using machine learning models. It includes multiple steps ranging from data preprocessing to result extraction.
 
-## Requirements
-
-- **Mindspore**: 1.8.1
-- **Python**: 3.7 or higher
-
-### Required Python Packages
-
-- numpy==1.21.6
-- pandas==1.0.5
-- tqdm==4.65.0
-- argparse
-- torch==1.13.0
-- scikit-learn==0.24.1
-- scipy==1.7.3
-- transformers==4.23.1
-
 ## Setup
 
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   # Replace <repository-url> with the actual URL from https://www.mindspore.cn/versions#1.8.1
-   ```
+- **Mindspore**: 1.8.1 (follow the website to configure this version of the Docker environment)
+- **Python**: 3.7 or higher
+- **Hmmer** tool for generate fine-tuned dataset (http://hmmer.org/)
 
-2. **Install the required Python packages**:
-   ```bash
-   pip install mindspore-ascend==1.8.0 numpy==1.21.6 torch==1.13.0 tqdm==4.65.0 scikit-learn==0.24.1 scipy==1.7.3 pandas==1.0.5 transformers==4.23.1
-   ```
 
 ## Usage
 
