@@ -11,6 +11,8 @@ This repository contains a comprehensive pipeline for training, generating, and 
 
 ## Usage
 
+Pretrain model,fine-tuned models are provided on this link:DOI: [10.5281/zenodo.12647297](https://doi.org/10.5281/zenodo.12647297)
+
 Run the `pipeline.py` script to execute the entire pipeline. The pipeline involves the following steps:
 
 1. **Make MindRecord Dataset**: Preprocess the dataset into MindRecord format.
