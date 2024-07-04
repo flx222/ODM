@@ -48,11 +48,6 @@ python pipeline.py -E /path/to/hmmer_dataset -D 0 -F /path/to/protein.fasta -M m
 - `do_reg(args, fasta_path, fold, device_id)`: Runs regression.
 - `extract_reg_result(cp_data_name, args, fasta_path, fold)`: Saves regression results.
 
-## Data Structure
-
-- **Input data** should be organized as specified by the user.
-- **Output data** will be saved in the `../predict_result/` directory, organized by FASTA file name and fold number.
-
 ## Notes
 
 Ensure all required scripts (`generate_seq_for_mask.py`, `ODM_mask.py`, `mpbert_mask.py`, `MPB_regress.py`) and configuration files (`config_1024.yaml`, `vocab_v2.txt`) are correctly referenced and available in your project directory. This pipeline utilizes pre-trained checkpoints and models as specified in the commands.
